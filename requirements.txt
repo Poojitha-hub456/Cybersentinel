@@ -1,0 +1,27 @@
+# Core
+python-dotenv==1.0.0
+requests==2.31.0
+
+# Data Loading & Processing
+langchain==0.1.16
+langchain-community==0.0.36
+pandas==2.1.4
+numpy==1.24.3
+
+# Embeddings & Vector DB (Phase 2)
+sentence-transformers==2.2.2
+chromadb==0.4.24
+faiss-cpu==1.7.4
+
+# LLM & Agent Framework (Phase 3) - optional for now
+langchain-openai==0.0.8
+
+# API & Web (Phase 4) - optional for now
+fastapi==0.109.0
+uvicorn==0.27.0
+pydantic==2.5.3
+streamlit==1.32.0
+
+# Utilities
+python-multipart==0.0.6
+aiohttp==3.9.1

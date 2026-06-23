@@ -1,0 +1,22 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "installDependencies",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"-m",
+				"pip",
+				"install",
+				"-r",
+				"${workspaceFolder}/requirements.txt"
+			],
+			"presentation": {
+				"reveal": "silent",
+				"panel": "shared"
+			},
+			"problemMatcher": []
+		}
+	]
+}

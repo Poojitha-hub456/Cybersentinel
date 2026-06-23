@@ -1,0 +1,30 @@
+[
+  {
+    "chunk_id": "otx-pulse-sample-001",
+    "text": "AlienVault OTX Threat Intelligence Pulse: Emotet Malware Campaign\nAuthor: OTX Community\nAdversaries: Emotet Botnet\nThreat Indicators: 2 IOCs included\n\nDescription: Emotet is a modular banking trojan that has been active since 2014. It can be used as a loader for other malware. Recently observed spreading via malicious Office documents.",
+    "source": "alienvault_otx",
+    "object_type": "threat_pulse",
+    "pulse_id": "sample-001",
+    "name": "Emotet Malware Campaign",
+    "author": "OTX Community",
+    "adversary_names": [
+      "Emotet Botnet"
+    ],
+    "ioc_count": 2,
+    "url": "https://otx.alienvault.com/pulse/sample-001"
+  },
+  {
+    "chunk_id": "otx-pulse-sample-002",
+    "text": "AlienVault OTX Threat Intelligence Pulse: APT28 Infrastructure\nAuthor: OTX Community\nAdversaries: APT28\nThreat Indicators: 1 IOCs included\n\nDescription: This pulse contains indicators of compromise associated with APT28, a sophisticated threat actor attributed to Russian military intelligence.",
+    "source": "alienvault_otx",
+    "object_type": "threat_pulse",
+    "pulse_id": "sample-002",
+    "name": "APT28 Infrastructure",
+    "author": "OTX Community",
+    "adversary_names": [
+      "APT28"
+    ],
+    "ioc_count": 1,
+    "url": "https://otx.alienvault.com/pulse/sample-002"
+  }
+]

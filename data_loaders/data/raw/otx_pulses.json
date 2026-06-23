@@ -1,0 +1,36 @@
+[
+  {
+    "id": "sample-001",
+    "name": "Emotet Malware Campaign",
+    "author_name": "OTX Community",
+    "description": "Emotet is a modular banking trojan that has been active since 2014. It can be used as a loader for other malware. Recently observed spreading via malicious Office documents.",
+    "adversary": {
+      "name": "Emotet Botnet"
+    },
+    "indicators": [
+      {
+        "indicator": "192.168.1.1",
+        "type": "IPv4"
+      },
+      {
+        "indicator": "malware.example.com",
+        "type": "domain"
+      }
+    ]
+  },
+  {
+    "id": "sample-002",
+    "name": "APT28 Infrastructure",
+    "author_name": "OTX Community",
+    "description": "This pulse contains indicators of compromise associated with APT28, a sophisticated threat actor attributed to Russian military intelligence.",
+    "adversary": {
+      "name": "APT28"
+    },
+    "indicators": [
+      {
+        "indicator": "10.0.0.0/8",
+        "type": "IPv4"
+      }
+    ]
+  }
+]
